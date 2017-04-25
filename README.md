@@ -1,4 +1,7 @@
-# test coverage for  [array-uniq (v1.0.3)](https://github.com/sindresorhus/array-uniq#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-array-uniq.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-array-uniq) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-array-uniq.svg)](https://travis-ci.org/npmtest/node-npmtest-array-uniq)
+# npmtest-array-uniq
+
+#### basic test coverage for  [array-uniq (v1.0.3)](https://github.com/sindresorhus/array-uniq#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-array-uniq.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-array-uniq) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-array-uniq.svg)](https://travis-ci.org/npmtest/node-npmtest-array-uniq)
+
 #### Create an array without duplicates
 
 [![NPM](https://nodei.co/npm/array-uniq.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/array-uniq)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-array-uniq/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-array-uniq/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-array-uniq/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-array-uniq/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-array-uniq/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-array-uniq/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-array-uniq/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-array-uniq/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-array-uniq/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-array-uniq/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-array-uniq/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-array-uniq/build/coverage.html/index.html)
 
@@ -85,7 +88,8 @@
     "scripts": {
         "test": "xo && ava"
     },
-    "version": "1.0.3"
+    "version": "1.0.3",
+    "bin": {}
 }
 ```
 
